@@ -1,0 +1,693 @@
+
+/*
+Theming
+main #0cc8c2
+collapsed nav #032c2b
+logo #e01273
+button #054846 
+button highlight #032c2b
+*/
+
+body {
+  font-family: 'Roboto', arial, sans-serif;
+  color: #444444;
+}
+a {
+  color: #0cc8c2;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+a:hover {
+  text-decoration: none;
+  color: #d63044;
+}
+.btn {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+.btn .fa {
+  color: #fff;
+  margin-right: 5px;
+}
+.form-control {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.form-control:focus {
+  border-color: #0cc8c2;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+blockquote {
+  font-size: 14px;
+}
+.row-end {
+  margin-right: 0;
+  padding-right: 0;
+}
+.social-icons {
+  list-style: none;
+  padding: 10px 0;
+  margin-bottom: 0;
+}
+.social-icons li {
+  float: left;
+}
+.social-icons li.row-end {
+  margin-right: 0;
+}
+.social-icons a {
+  display: inline-block;
+  background: #054846;
+  width: 68px;
+  height: 68px;
+  text-align: center;
+  padding-top: 16px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  margin-right: 8px;
+  float: left;
+}
+.social-icons a:hover {
+  background: #032c2b;
+}
+.social-icons a .fa {
+  color: #fff;
+}
+.social-icons a .fa:before {
+  font-size: 40px;
+  text-align: center;
+  padding: 0;
+}
+
+.social-icons .email .fa:before {
+	font-size: 32px;
+	line-height: 37px;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #999;
+  text-transform: uppercase;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #999;
+  text-transform: uppercase;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #999;
+  text-transform: uppercase;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #999;
+  text-transform: uppercase;
+}
+.offset-header {
+  padding-top: 90px;
+}
+.has-pattern {
+  background-image: url('../images/patterns/pattern-1.png');
+  background-repeat: repeat;
+  background-position: left top;
+}
+.delayp1 {
+  animation-delay: .1s;
+  -moz-animation-delay: .1s;
+  -webkit-animation-delay: .1s;
+  -o-animation-delay: .1s;
+  transition-delay: .1s;
+  -webkit-transition-delay: .1s;
+  -moz-transition-delay: .1s;
+  -o-transition-delay: .1s;
+}
+.delayp2 {
+  animation-delay: .2s;
+  -moz-animation-delay: .2s;
+  -webkit-animation-delay: .2s;
+  -o-animation-delay: .2s;
+  transition-delay: .2s;
+  -webkit-transition-delay: .2s;
+  -moz-transition-delay: .2s;
+  -o-transition-delay: .2s;
+}
+.delayp3 {
+  animation-delay: .3s;
+  -moz-animation-delay: .3s;
+  -webkit-animation-delay: .3s;
+  -o-animation-delay: .3s;
+  transition-delay: .3s;
+  -webkit-transition-delay: .3s;
+  -moz-transition-delay: .3s;
+  -o-transition-delay: .3s;
+}
+.delayp4 {
+  animation-delay: .4s;
+  -moz-animation-delay: .4s;
+  -webkit-animation-delay: .4s;
+  -o-animation-delay: .4s;
+  transition-delay: .4s;
+  -webkit-transition-delay: .4s;
+  -moz-transition-delay: .4s;
+  -o-transition-delay: .4s;
+}
+.delayp5 {
+  animation-delay: .5s;
+  -moz-animation-delay: .5s;
+  -webkit-animation-delay: .5s;
+  -o-animation-delay: .5s;
+  transition-delay: .5s;
+  -webkit-transition-delay: .5s;
+  -moz-transition-delay: .5s;
+  -o-transition-delay: .5s;
+}
+.delayp6 {
+  animation-delay: .6s;
+  -moz-animation-delay: .6s;
+  -webkit-animation-delay: .6s;
+  -o-animation-delay: .6s;
+  transition-delay: .6s;
+  -webkit-transition-delay: .6s;
+  -moz-transition-delay: .6s;
+  -o-transition-delay: .6s;
+}
+.delayp7 {
+  animation-delay: .7s;
+  -moz-animation-delay: .7s;
+  -webkit-animation-delay: .7s;
+  -o-animation-delay: .7s;
+  transition-delay: .7s;
+  -webkit-transition-delay: .7s;
+  -moz-transition-delay: .7s;
+  -o-transition-delay: .7s;
+}
+.delayp8 {
+  animation-delay: .8s;
+  -moz-animation-delay: .8s;
+  -webkit-animation-delay: .8s;
+  -o-animation-delay: .8s;
+  transition-delay: .8s;
+  -webkit-transition-delay: .8s;
+  -moz-transition-delay: .8s;
+  -o-transition-delay: .8s;
+}
+.delayp9 {
+  animation-delay: .9s;
+  -moz-animation-delay: .9s;
+  -webkit-animation-delay: .9s;
+  -o-animation-delay: .9s;
+  transition-delay: .9s;
+  -webkit-transition-delay: .9s;
+  -moz-transition-delay: .9s;
+  -o-transition-delay: .9s;
+}
+.delay1s {
+  animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  transition-delay: 1s;
+  -webkit-transition-delay: 1s;
+  -moz-transition-delay: 1s;
+  -o-transition-delay: 1s;
+}
+.delay2s {
+  animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  transition-delay: 2s;
+  -webkit-transition-delay: 2s;
+  -moz-transition-delay: 2s;
+  -o-transition-delay: 2s;
+}
+/* ======= Header ======= */
+
+.navbar-fixed-top .navbar-collapse
+{
+	padding-right: 40px;
+}
+
+.header {
+  padding: 10px 0;
+  background: #fff;
+  z-index: 9999;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+.header h1.logo {
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 28px;
+  max-height: 50px;
+	margin-left: 40px;
+
+}
+.header h1.logo a {
+  color: #444444;
+}
+.header h1.logo a img {
+  margin-right: 5px;
+  max-height: 50px;
+}
+.header h1.logo .logo-title {
+  vertical-align: middle;
+	font-family: 'Roboto Slab';
+	font-weight: 400;
+	font-size: 40px;
+	color: #e01273;
+}
+.header .main-nav button {
+  background: #e01273;
+  color: #fff !important;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.header .main-nav button:focus {
+  outline: none;
+}
+.header .main-nav button .icon-bar {
+  background-color: #fff;
+}
+.header .main-nav .nav .nav-item {
+  font-weight: 500;
+  margin-right: 10px;
+}
+.header .main-nav .nav .nav-item.active a {
+  color: #0cc8c2;
+  background: none;
+}
+.header .main-nav .nav .nav-item a {
+  color: #918E8E;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+}
+.header .main-nav .nav .nav-item a:hover {
+  color: #0cc8c2;
+  background: none;
+}
+.header .main-nav .nav .nav-item a:focus {
+  outline: none;
+  background: none;
+}
+.header .main-nav .nav .nav-item a:active {
+  outline: none;
+  background: none;
+}
+.header .main-nav .nav .nav-item.active {
+  color: #0cc8c2;
+}
+.header .main-nav .nav .nav-item.last {
+  margin-right: 0;
+}
+.navbar-toggle
+{
+	margin-top: 12px;
+}
+/* ======= Footer ======= */
+.footer {
+  background: #444444;
+  color: #fff;
+  padding: 15px 0;
+}
+.footer .copyright {
+  color: #b3b3b3;
+  margin-right: 15px;
+	font-weight: 500;
+}
+.footer .links {
+  margin-bottom: 0;
+}
+.footer .links a {
+  color: #808080;
+}
+.footer .links a:hover {
+  color: #0cc8c2;
+}
+/* ======= FlexSlider ======= */
+.flexslider {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 0 0;
+  -moz-box-shadow: 0 0 0;
+  box-shadow: 0 0 0;
+  border: 0;
+}
+.flexslider .flex-control-nav {
+  bottom: -35px;
+}
+.flexslider .flex-control-paging li a {
+  background: #a1a1a1;
+}
+.flexslider .flex-control-paging li a:hover {
+  background: #0cc8c2;
+}
+.flexslider .flex-control-paging li a.flex-active {
+  background: #0cc8c2;
+}
+.flexslider .slides li {
+  position: relative;
+}
+/* ======= Promo Section ======= */
+.promo {
+  background-color: #0cc8c2;
+  color: #fff;
+}
+.promo .container {
+  padding-bottom: 15px;
+}
+.promo .overview {
+  margin-top: 140px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.promo .overview h2 {
+  font-size: 30px;
+	margin: 0;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.promo .overview .title1 {
+	font-weight: 500;
+}
+
+.promo .overview .title2 {
+	margin-top: 22px;
+	margin-bottom: 32px;
+	font-weight: 500;
+}
+
+.promo .overview .download-area {
+  display: inline-block;
+}
+.promo .overview .btn-group {
+  margin-left: 0px;
+}
+.promo .overview .btn-group li {
+  padding: 0;
+  margin-bottom: 15px;
+}
+.promo .overview .btn-group li a {
+  background-color: #054846;
+  background-repeat: no-repeat;
+  background-position: left top;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  display: block;
+  width: 200px;
+  height: 60px;
+  text-indent: -9999px;
+  margin-right: 30px;
+}
+.promo .overview .btn-group li a:hover {
+  background-color: #032c2b;
+}
+.promo .overview .btn-group li.ios-btn a {
+  background-image: url('../images/buttons/btn-app-store-2.png');
+}
+.promo .overview .btn-group li.android-btn a {
+  background-image: url('../images/buttons/btn-google-play-2.png');
+}
+.promo .iphone {
+  position: relative;
+}
+.promo .iphone .iphone-holder {
+  position: relative;
+  width: 320px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.promo .iphone.iphone-black .iphone-holder {
+  background-image: url('../images/iphone/iphone-black.png');
+}
+.promo .iphone.iphone-white .iphone-holder {
+  background-image: url('../images/iphone/iphone-white.png');
+}
+.promo .iphone .iphone-holder-inner {
+  position: absolute;
+  width: 222px;
+  height: 394px;
+  left: 51px;
+  top: 103px;
+}
+.promo .iphone .flexslider .flex-control-nav {
+  bottom: -50px;
+}
+.promo .iphone:before {
+  content: "";
+  display: block;
+  width: 500px;
+  height: 500px;
+  background: url('../images/glow.png') no-repeat center top;
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+/* ======= Features Section ======= */
+.features {
+  padding: 55px 0 40px 0;
+}
+.features .icon {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  border: 3px solid #0cc8c2;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  display: table;
+  margin: 0 auto;
+  -webkit-transition: -webkit-transform ease-out 0.2s, background 0.3s;
+  -moz-transition: -moz-transform ease-out 0.2s, background 0.3s;
+  transition: transform ease-out 0.2s, background 0.3s;
+}
+.features .icon:hover {
+  background: #0cc8c2;
+  color: #fff;
+}
+.features .icon:hover .fa {
+  color: #fff;
+  -webkit-transform: scale(0.93);
+  -moz-transform: scale(0.93);
+  -ms-transform: scale(0.93);
+  -o-transform: scale(0.93);
+}
+.features .icon .fa {
+  color: #0cc8c2;
+  font-size: 48px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.features .content {
+  padding: 15px 30px 5px 30px
+}
+.features .content .title {
+  color: #0cc8c2;
+  font-size: 20px;
+  margin-top: 0;
+}
+.features .title {
+	color: #0cc8c2;
+  margin-bottom: 40px;
+	font-weight: 500;
+}
+
+.features .section-title {
+	margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+
+/* ======= Contact Section ======= */
+.contact {
+  background-color: #0cc8c2;
+  color: #fff;
+	padding: 65px 0 55px 0;
+}
+.contact .title {
+  margin-bottom: 22px;
+  margin-top: 0;
+	font-weight: 500;
+}
+.contact .intro p {
+  font-size: 20px;
+	font-weight: 500;	
+	margin-bottom: 15px;
+}
+.contact .intro ul {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.contact .intro li {
+  margin-bottom: 10px;
+  color: #af2334;
+  font-size: 16px;
+}
+.contact .intro li .fa {
+  margin-right: 10px;
+}
+.contact .contact-form .form-control {
+  border-color: #fff;
+  height: auto;
+  padding: 10px 15px;
+}
+.contact .contact-form .btn-theme {
+  background-color: #af2334;
+  margin-top: 15px;
+}
+.contact .social-icons {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+	
+	.navbar-collapse 
+	{
+		padding-left: 38px;
+	}
+	
+	.navbar-toggle {
+		margin-right: 28px;
+	}
+	
+	.header h1.logo {
+		margin-left: 25px;
+	}
+
+  .promo .overview {
+    text-align: center;
+		margin-top: 0px; 
+		padding-left: 0px; 
+		padding-right: 0px; 		
+  }	
+	
+  .promo .overview .download-area {
+    margin: 0 auto;
+  }
+  .promo .phone {
+    text-align: center;
+  }
+	.promo .iphone .iphone-holder {
+		height: 576px;
+		width: 320px;
+    margin: 0 auto;
+    -webkit-background-size: 300px auto;
+    -moz-background-size: 300px auto;
+    -o-background-size: 300px auto;
+    background-size: 300px auto;
+  }
+  .promo .iphone .iphone-holder-inner {
+    width: 208px;
+    height: 394px;
+    left: 48px;
+    top: 96px;
+  }
+  .promo .ipad .flexslider .flex-control-nav {
+    bottom: -33px;
+  }
+	
+	.promo .overview .btn-group li a
+	{
+		margin-left: 3px;
+		margin-right: 3px;
+	}
+		
+	.promo .col-md-4
+	{
+		padding-right: 0px;
+	}
+	
+		
+	.promo .overview h2 {
+		font-size: 26px;	
+	}
+
+	
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	
+	.promo .iphone .iphone-holder {
+    margin: 0 30px;
+	}
+	
+	.overview .ios-btn a
+	{
+		margin-top: 0px;
+		margin-bottom: 10px;
+	}
+		
+	
+  .promo .overview .download-area 
+	{
+    margin-left: 20px;
+  }
+	
+  .promo .overview .title1,   
+	.promo .overview .title2
+	{
+    margin-left: 20px;
+  }
+	
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+	.promo .iphone .iphone-holder {
+    margin: 0 75px;
+	}
+	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.promo .iphone .iphone-holder {
+    margin: 0 140px;
+	}
+}
