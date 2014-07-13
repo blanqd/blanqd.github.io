@@ -438,10 +438,10 @@ blockquote {
   background-color: #032c2b;
 }
 .promo .overview .btn-group li.ios-btn a {
-  background-image: url('../images/buttons/btn-app-store-2.png');
+  background-image: url('../images/buttons/btn-app-store.png');
 }
 .promo .overview .btn-group li.android-btn a {
-  background-image: url('../images/buttons/btn-google-play-2.png');
+  background-image: url('../images/buttons/btn-google-play.png');
 }
 .promo .iphone {
   position: relative;
