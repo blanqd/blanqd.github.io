@@ -24,7 +24,7 @@ jQuery(document).ready(function($) {
         animation: "fade",
         touch: true,
         directionNav: false,
-				slideshowSpeed: 4000,
+				slideshowSpeed: 3000,
 				animationSpeed: 1000,
 				pauseOnHover: true
     });
