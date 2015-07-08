@@ -10,16 +10,16 @@
     <meta name="description" content="">
     <meta name="author" content="">    
 		
-		<!-- Favicons -->
-		<link rel="shortcut icon" href="assets/images/favicons/favicon.ico">
-		<link rel="icon" type="image/png" href="assets/images/favicons/favicon-196x196.png" sizes="196x196">
-		<link rel="icon" type="image/png" href="assets/images/favicons/favicon-160x160.png" sizes="160x160">
-		<link rel="icon" type="image/png" href="assets/images/favicons/favicon-96x96.png" sizes="96x96">
-		<link rel="icon" type="image/png" href="assets/images/favicons/favicon-16x16.png" sizes="16x16">
-		<link rel="icon" type="image/png" href="assets/images/favicons/favicon-32x32.png" sizes="32x32">
-		
-		<link href='http://fonts.googleapis.com/css?family=Roboto:500' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400' rel='stylesheet' type='text/css'>
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="assets/images/favicons/favicon.ico">
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-196x196.png" sizes="196x196">
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-32x32.png" sizes="32x32">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:500' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400' rel='stylesheet' type='text/css'>
 
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
@@ -123,8 +123,10 @@
                     <h2 class="title2">Engage with your news.</h2>
                     <div class="download-area">
                         <ul class="btn-group list-inline">
-                            <li class="ios-btn"><a target="_blank" href="http://appstore.com/blanqd">Download from the App Store</a></li>
-                            <li class="android-btn"><a target="_blank" href="http://play.google.com/store/apps/details?id=com.blanqd.app">Get it from Google Play</a></li>
+                            <li class="ios-btn"><a onclick="goog_report_conversion('https://geo.itunes.apple.com/us/app/blanqd/id827624970?mt=8')"
+                                                   href="#">Download from the App Store</a></li>
+                            <li class="android-btn"><a onclick="goog_report_conversion('http://play.google.com/store/apps/details?id=com.blanqd.app')"
+                                                       href="#">Get it from Google Play</a></li>
                         </ul>
                     </div>
                 </div><!--//overview-->
@@ -202,7 +204,40 @@
             <small class="copyright pull-left">Copyright &copy; 2014 Blanqd</small>
         </div>
     </footer><!--//footer-->
-    
+
+
+    <!-- Conversion Tracking -->
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        goog_snippet_vars = function() {
+            var w = window;
+            w.google_conversion_id = 900316752;
+            w.google_conversion_label = "q4OPCOH5o14Q0PymrQM";
+            w.google_remarketing_only = false;
+        }
+        // DO NOT CHANGE THE CODE BELOW.
+        goog_report_conversion = function(url) {
+            goog_snippet_vars();
+            window.google_conversion_format = "3";
+            window.google_is_call = true;
+            var opt = new Object();
+            opt.onload_callback = function() {
+                if (typeof(url) != 'undefined') {
+                    window.location = url;
+                }
+            }
+            var conv_handler = window['google_trackConversion'];
+            if (typeof(conv_handler) == 'function') {
+                conv_handler(opt);
+            }
+        }
+        /* ]]> */
+    </script>
+    <script type="text/javascript"
+            src="//www.googleadservices.com/pagead/conversion_async.js">
+    </script>
+
+
     <!-- Javascript -->          
     <script type="text/javascript" src="assets/plugins/jquery/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="assets/plugins/jquery/jquery-migrate-1.2.1.min.js"></script>
